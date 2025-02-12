@@ -41,9 +41,9 @@
     }
 
     div.abo li {
-        font-size: 50px;
+        font-size: 40px;
         margin: 10px;
-        margin-top: 120px;
+        margin-top: 100px;
     }
 
     div.descrabo {
@@ -87,6 +87,10 @@
 
     body.destinations {
         background: radial-gradient(circle, #000b40 0%, #020219 100%);
+    }
+
+    div.mars li {
+        margin-top: 180px;
     }
 
     div.neptune li {
