@@ -1,0 +1,810 @@
+body.index {
+    background: linear-gradient(305deg, #00083d 37%, #0097b9 100%);
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(33, 32, 32);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.burger {
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/hamburger-icon-white-16.png);
+    background-size: cover;
+    display: none
+}
+
+nav li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+nav li a:hover {
+    color: lightblue;
+}
+
+div.accueil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.abo {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/astronomy-1866822_1280.jpg);
+    margin: 50px;
+    border-radius: 20px;
+    width: 900px;
+    height: 500px;
+}
+
+div.abo li{
+    margin-top: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+div.abo li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.descrabo {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    list-style-type: none;
+    width: 30%;
+}
+
+div.abo li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+div.abo li a:hover {
+    color: lightblue;
+}
+
+body.destinations {
+    background: radial-gradient(circle, #000b40 0%, #020219 100%);
+}
+
+div.choix {
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+div.destinations {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.mars {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotel-luxueux-amangiri-utah-4.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+div.mars li {
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 235px;
+}
+
+div.mars li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.mars li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+div.mars li a:hover {
+    color: #c74602;
+}
+
+div.neptune {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelneptune.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+div.neptune li {
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 235px;
+}
+
+div.neptune li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.neptune li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+div.neptune li a:hover {
+    color: #00d2ff;
+}
+
+div.saturne {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelsaturne.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+div.saturne li {
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 235px;
+}
+
+div.saturne li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.saturne li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+div.saturne li a:hover {
+    color: #ffe795;
+}
+
+div.jupiter {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hoteljupiter.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+div.jupiter li {
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 235px;
+}
+
+div.jupiter li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.jupiter li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+div.jupiter li a:hover {
+    color: #520202;
+}
+
+div.callisto {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelcallisto.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+div.callisto li {
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 235px;
+}
+
+div.callisto li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.callisto li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+div.callisto li a:hover {
+    color: #A8C0FF;
+}
+
+div.ganymede {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelganymede.jpeg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+div.ganymede li {
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 235px;
+}
+
+div.ganymede li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.ganymede li:hover {
+    transform: scale(1.15);
+    transition: transform 1.5s;
+}
+
+div.ganymede li a:hover {
+    color: #7a7874;
+}
+
+body.hotelmars {
+    background: linear-gradient(305deg, #ffe795 0%, #c74602 60%);
+}
+
+div.pagemars {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.photomars {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotel-luxueux-amangiri-utah-4.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+}
+
+div.photomars li {
+    list-style-type: none;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 390px;
+    color: whitesmoke;
+}
+
+div.paiementmars form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    margin: 90px;
+}
+
+div.paiementmars form input {
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+div.paiementmars form button {
+    background: linear-gradient(305deg, #ffe795 0%, #c74602 60%);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+div.infomars {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+body.hotelneptune {
+    background: linear-gradient(305deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+div.pageneptune {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.photoneptune {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelneptune.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+}
+
+div.photoneptune li {
+    list-style-type: none;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 390px;
+    color: whitesmoke;
+}
+
+div.paiementneptune form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    margin: 90px;
+}
+
+div.paiementneptune form input {
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+div.paiementneptune form button {
+    background: linear-gradient(305deg, #00d2ff 0%, #3a47d5 100%);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+div.infoneptune {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+body.hotelsaturne {
+    background: linear-gradient(305deg, #ffe795 0%, #5f744e 60%);
+}
+
+div.pagesaturne {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.photosaturne {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelsaturne.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+}
+
+div.photosaturne li {
+    list-style-type: none;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 390px;
+    color: whitesmoke;
+}
+
+div.paiementsaturne form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    margin: 90px;
+}
+
+div.paiementsaturne form input {
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+div.paiementsaturne form button {
+    background: linear-gradient(305deg, #ffe795 0%, #5f744e 60%);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+div.infosaturne {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+body.hoteljupiter {
+    background: linear-gradient(305deg, #520202 28%, #ffe795 78%);
+}
+
+div.pagejupiter {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.photojupiter {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hoteljupiter.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+}
+
+div.photojupiter li {
+    list-style-type: none;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 390px;
+    color: whitesmoke;
+}
+
+div.paiementjupiter form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    margin: 90px;
+}
+
+div.paiementjupiter form input {
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+div.paiementjupiter form button {
+    background: linear-gradient(305deg, #520202 28%, #ffe795 78%);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+div.infojupiter {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+body.hotelcallisto {
+    background: linear-gradient(305deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+div.pagecallisto {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.photocallisto {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelcallisto.jpg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+}
+
+div.photocallisto li {
+    list-style-type: none;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 390px;
+    color: whitesmoke;
+}
+
+div.paiementcallisto form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    margin: 90px;
+}
+
+div.paiementcallisto form input {
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+div.paiementcallisto form button {
+    background: linear-gradient(305deg, #3F2B96 0%, #A8C0FF 100%);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+div.infocallisto {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+body.hotelganymede {
+    background: linear-gradient(305deg, #374660 28%, #7a7874 780%);
+}
+
+div.pageganymede {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.photoganymede {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/hotelganymede.jpeg);
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+}
+
+div.photoganymede li {
+    list-style-type: none;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 390px;
+    color: whitesmoke;
+}
+
+div.paiementganymede form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    margin: 90px;
+}
+
+div.paiementganymede form input {
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+div.paiementganymede form button {
+    background: linear-gradient(305deg, #374660 28%, #7a7874 780%);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+div.infoganymede {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+body.contact {
+    background: linear-gradient(90deg, #616161 0%, #000000 100%);
+}
+
+div.infos {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.reseau {
+    background: linear-gradient(149deg, rgba(0,0,0,1) 37%, rgba(97,97,97,1) 100%);
+    padding: 10px;
+    border-radius: 15px;
+    height: 150px;
+    width: 500px;
+}
+
+div.reseau li {
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.reseau li a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+div.message {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(149deg, rgba(0,0,0,1) 37%, rgba(97,97,97,1) 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+}
+
+div.message label {
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.message input {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+div.message textarea {
+    background-color: lightgray;
+    margin: 10px;
+    width: 472px;
+    height: 300px;
+}
+
+div.message button {
+    background: linear-gradient(90deg, #374660 28%, #7a7874 780%);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+body.etoiles {
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+div.payerstarpass h1 {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+div.passpaiement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.pass {
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/tunnelspace.jpg);
+    margin: 50px;
+    border-radius: 20px;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+    margin-right: auto;
+}
+
+div.pass li{
+    margin-top: 390px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    list-style-type: none;
+    color: red;
+    margin-left: auto;
+    font-weight: bold;
+
+}
+
+div.paiement form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+div.paiement form input {
+    background-color: lightgray;
+    margin: 10px;
+    
+}
+
+div.paiement form button {
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
